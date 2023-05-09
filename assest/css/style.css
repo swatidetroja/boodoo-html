@@ -52,7 +52,7 @@ header {
     color: #FFFFFF;
     width: 30rem;
     background: #C8191C;
-    padding:1.6rem 0;
+    padding: 1.6rem 0;
 }
 
 /**********hero************/
@@ -104,6 +104,40 @@ header {
     margin: 0 auto;
     padding: 5.5rem 0;
 }
+
+/***********************/
+/******About**********/
+#about {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+.about-data {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20rem;
+}
+.about-data img{
+   margin: 0 auto;
+   padding-bottom: 2rem;
+}
+.about-data h3 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 73px;
+    text-align: center;
+    color: #FFFFFF;
+
+      
+    
+}  
+
+
+
+
+
+
+
+/**********************/
 
 
 
