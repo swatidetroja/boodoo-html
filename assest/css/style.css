@@ -25,6 +25,37 @@ img {
     display: block;
 }
 
+.common-btn {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    color: #FFFFFF;
+    width: 30rem;
+    background: #C8191C;
+    text-align: center;
+    padding: 1.6rem 0;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #C8191C;
+    text-align: center;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
 /********Header********/
 
 .nav-link {
@@ -44,37 +75,10 @@ header {
     width: 100%;
 }
 
-.common-btn {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 3.3rem;
-    color: #FFFFFF;
-    width: 30rem;
-    background: #C8191C;
-    text-align: center;
-    padding: 1.6rem 0;
-}
-
-.main-title {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    text-transform: uppercase;
-    color: #C8191C;
-}
-
-.sub-title {
-    font-weight: 700;
-    font-size: 84px;
-    line-height: 114px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-
-}
 
 
-/**********hero************/
+/**************************************************/
+/*************************hero********************/
 
 #hero {
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
@@ -170,18 +174,22 @@ header {
     padding-bottom: 10.5rem;
 }
 
+/*************************************************/
 /***********************Super*********************/
 #super {
     padding-top: 20rem;
     background: linear-gradient(180deg, #000000 37.37%, #C8191C 231.27%);
 }
-.super-data h2, .super-img h2 {
+
+.super-data h2,
+.super-img h2 {
     font-weight: 700;
     font-size: 140px;
     line-height: 191px;
     color: #FFFFFF;
     padding-bottom: 11.5rem;
 }
+
 .super-data p {
     width: 48.5rem;
     font-weight: 400;
@@ -189,24 +197,125 @@ header {
     line-height: 2.4rem;
     color: #FFFFFF;
 }
+
 .team-img {
+    padding-left: 8.8rem;
     padding-bottom: 10rem;
 }
-.col-lg-3 img{
+
+.col-lg-3 img {
     width: 22.4rem;
 }
 
-
-
-
-
-
 /************************************************/
+/*********************super**********************/
+#service {
+    background: linear-gradient(0deg, #000000 37.37%, #C8191C 231.27%);
+    padding-top: 20rem;
+}
 
+.service-data {
+    border: 2px solid white;
+    padding: 5rem 6rem;
+}
 
+#service .sub-title {
+    padding-bottom: 10rem;
+}
 
+#service .row>* {
+    padding-bottom: 15rem;
+}
 
+#service .row>*:nth-child(odd) {
+    padding-right: 7.5rem;
+    padding-left: 11.9rem;
+}
 
+#service .row>*:nth-child(even) {
+    padding-left: 7.5rem;
+    padding-right: 11.9rem;
+}
+
+.service-data h3 {
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 6rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.service-data p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+/*********************************************************/
+/*********************why*********************************/
+#why {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    padding-top: 20rem;
+}
+
+#why .row>* {
+    padding-bottom: 15rem;
+}
+
+#why .sub-title {
+    padding-bottom: 17.2rem;
+}
+
+.why-data img {
+    margin: 0 auto;
+}
+
+.why-data h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 3rem 0;
+}
+
+.why-data p {
+    width: 39.5rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*************************************************************/
+/**********************Horoscope******************************/
+#horoscope {
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    padding-top: 20rem;
+}
+
+.horo-data {
+    display: flex;
+}
+.horo-data h3 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 73px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.horo-data p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}    
 
 
 
