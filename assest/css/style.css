@@ -27,7 +27,7 @@ img {
 
 /********Header********/
 
-header ul li {
+.nav-link {
     font-family: 'Alegreya';
     font-style: normal;
     font-weight: 700;
@@ -52,8 +52,27 @@ header {
     color: #FFFFFF;
     width: 30rem;
     background: #C8191C;
+    text-align: center;
     padding: 1.6rem 0;
 }
+
+.main-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #C8191C;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
 
 /**********hero************/
 
@@ -105,31 +124,84 @@ header {
     padding: 5.5rem 0;
 }
 
-/***********************/
-/******About**********/
+/***************************************************/
+/************************About**********************/
 #about {
     background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
-}
-
-.about-data {
-    display: flex;
-    justify-content: space-between;
     padding-top: 20rem;
 }
-.about-data img{
-   margin: 0 auto;
-   padding-bottom: 2rem;
+
+.about-img-data {
+    padding-top: 20rem;
 }
-.about-data h3 {
+
+.about img {
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.about h3 {
     font-weight: 700;
     font-size: 54px;
     line-height: 73px;
     text-align: center;
     color: #FFFFFF;
+}
 
-      
-    
-}  
+.about-img {
+    border-right: 2px solid #FFFFFF;
+}
+
+.about-img p {
+    width: 54.1rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    padding-top: 10rem;
+}
+
+.about-data {
+    padding-left: 11.5rem;
+}
+
+.about-data .sub-title {
+    padding-top: 1.8rem;
+    padding-bottom: 10.5rem;
+}
+
+/***********************Super*********************/
+#super {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 37.37%, #C8191C 231.27%);
+}
+.super-data h2, .super-img h2 {
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 191px;
+    color: #FFFFFF;
+    padding-bottom: 11.5rem;
+}
+.super-data p {
+    width: 48.5rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+.team-img {
+    padding-bottom: 10rem;
+}
+.col-lg-3 img{
+    width: 22.4rem;
+}
+
+
+
+
+
+
+/************************************************/
 
 
 
@@ -137,19 +209,11 @@ header {
 
 
 
-/**********************/
 
 
 
 
-
-
-
-
-
-
-
-@media screen and (min-width: 1800px) {
+@media screen and (min-width:1800px) {
     .container {
         max-width: 170rem;
 
