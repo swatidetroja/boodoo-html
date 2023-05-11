@@ -208,7 +208,7 @@ header {
 }
 
 /************************************************/
-/*********************super**********************/
+/*********************service**********************/
 #service {
     background: linear-gradient(0deg, #000000 37.37%, #C8191C 231.27%);
     padding-top: 20rem;
@@ -289,6 +289,7 @@ header {
     font-size: 18px;
     line-height: 24px;
     text-align: center;
+    color: #FFFFFF;
     margin: 0 auto;
 }
 
@@ -299,24 +300,70 @@ header {
     padding-top: 20rem;
 }
 
+#horoscope .sub-title {
+    width: 105rem;
+    margin: 0 auto;
+    padding-bottom: 10rem;
+}
+
+#horoscope .row>* {
+    padding-bottom: 10rem;
+}
+
 .horo-data {
     display: flex;
 }
+
+.horo-data img {
+    padding-right: 6rem;
+    height: 18rem;
+}
+
 .horo-data h3 {
     font-weight: 700;
-    font-size: 54px;
-    line-height: 73px;
+    width: 20.7rem;
+    font-size: 5.4rem;
+    line-height: 7.3rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.horo-data p {
+    font-weight: 400;
+    width: 16.5rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    padding-bottom: 2.5rem;
+}
+
+/************************************************************/
+/*************************viewer****************************/
+#viewer {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+    padding-top: 20rem;
+}
+
+.viewer-data h4 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
     text-align: center;
+    text-transform: uppercase;
+    color: #C8191C;
+}
+
+.viewer-data img {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 136px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.horo-data p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: #FFFFFF;
-}    
-
+/*********************************************************************/
 
 
 
