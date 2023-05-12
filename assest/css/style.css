@@ -168,10 +168,16 @@ header {
     padding-left: 11.5rem;
 }
 
+.about-data .main-title {
+    text-align: left;
+}
+
 .about-data .sub-title {
     padding-top: 1.8rem;
     padding-bottom: 10.5rem;
+    text-align: left;
 }
+
 
 /*************************************************/
 /***********************Super*********************/
@@ -371,11 +377,13 @@ header {
 }
 
 #appointment .sub-title {
+
     text-align: left;
     width: 45.2rem;
 }
 
 #appointment .main-title {
+    padding-top: 22.4rem;
     text-align: left;
 }
 
@@ -436,16 +444,29 @@ header {
 /**************************membership********************************/
 #membership {
     background: linear-gradient(0deg, #514242 -74.63%, #2E0A0A 38.7%, #000000 151.34%);
+    width: 100%;
+    height: 50.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+#membership::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: url(../images/membership-banner.png);
+    width: 100%;
+    height: 100%;
+    background-size: 90% auto;
+    background-position: center center;
 
 }
-#membership{
-    background: url(../images/membership-banner.png);
-    
-}
+
 #membership h2 {
     font-weight: 700;
-    font-size: 84px;
-    line-height: 114px;
+    font-size: 8.4rem;
+    line-height: 11.4rem;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -454,12 +475,137 @@ header {
 
 #membership p {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
     text-align: center;
     color: #FFFFFF;
 }
 
+/********************************************************************/
+/***************************Price************************************/
+#price {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    padding-top: 20rem;
+}
+
+.price-data {
+    border: 2px solid white;
+
+
+}
+
+#price .sub-title {
+    padding-bottom: 8rem;
+}
+
+#price .row>* {
+    padding: 0 5rem;
+}
+
+.price-data {
+    padding: 6rem 7.7rem;
+}
+
+.price-data h4 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.price-data h2 {
+    font-weight: 700;
+    font-size: 7.2rem;
+    line-height: 9.8rem;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.price-data span {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.price-img {
+    display: flex;
+    padding-bottom: 2rem;
+
+}
+
+.price-img img {
+    width: 4.8rem;
+    height: 4.8rem;
+    object-fit: cover;
+    object-position: center center;
+
+}
+
+.price-img p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    padding: 1.2rem 0;
+    padding-left: 2rem;
+}
+
+#price .common-btn {
+    margin-top: 6rem;
+}
+
+.price-data:hover {
+    background: #C8191C;
+}
+
+.price-data:hover .common-btn {
+    background: #FFFFFF;
+    color: #C8191C;
+}
+
+/*********************************************************************/
+/**************************client*************************************/
+#client {
+    background: linear-gradient(180deg, #000000 36.84%, rgba(200, 25, 28, 0) 223.16%);
+    padding-top: 20rem;
+}
+
+#client .sub-title {
+    width: 144.6rem;
+}
+
+#client img {
+    margin: 0 auto;
+}
+
+.client-slider {
+    padding-bottom: 15rem;
+}
+
+#client img {
+    padding-bottom: 10.9rem;
+}
+
+#client p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+#client h5 {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    color: #FFFFFF;
+
+}
 
 @media screen and (min-width:1800px) {
     .container {
