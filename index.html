@@ -431,41 +431,95 @@
     <section id="client">
       <div class="container">
         <div class="h2 sub-title">OUR HAPPY CLIENT SAY ABOUT BOODOO</div>
-      </div>
-      <img src="./assest/images/Arrow 2.png" alt="">
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper client-slider">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img src="./assest/images/slider1.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
-            <h5>Antonio H - Client</h5>
-          </div>
-          <div class="swiper-slide">
-            <img src="./assest/images/slider2.png" alt="">
-            <img src="./assest/images/comma.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
-            <h5>Antonio H - Client</h5>
-          </div>
-          <div class="swiper-slide">
-            <img src="./assest/images/slider1.png" alt="">
-          </div>
-          ...
+        <div class="errow">
+          <img src="./assest/images/Arrow 2.png" alt="">
         </div>
+        <div class="swiper client-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="client-slide">
+                <div class="client-img">
+                  <img src="./assest/images/slider1.png" alt="">
+                </div>
+                <div class="client-data">
+                  <div class="comma">
+                    <span>“</span>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur
+                    elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim
+                    eu
+                    egestas fusce arcu.</p>
+                  <h5>Antonio H - Client</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client-slide">
+                <div class="client-img">
+                  <img src="./assest/images/slider2.png" alt="">
+                </div>
+                <div class="client-data">
+                  <div class="comma">
+                    <span>“</span>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur
+                    elit
+                    at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu
+                    egestas
+                    fusce arcu.</p>
+                  <h5>Antonio H - Client</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client-slide">
+                <div class="client-img">
+                  <img src="./assest/images/slider1.png" alt="">
+                </div>
+                <div class="client-data">
+                  <div class="comma">
+                    <span>“</span>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur
+                    elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim
+                    eu
+                    egestas fusce arcu.</p>
+                  <h5>Antonio H - Client</h5>
+                </div>
+              </div>
+            </div>
+            ...
+          </div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
 
-        
+
+        </div>
+   
+
+
+    </section>
+
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="" alt="">
+            
+          </div>
+          <div class="col-lg-3"></div>
+          <div class="col-lg-3"></div>
+          <div class="col-lg-3"></div>
+        </div>
       </div>
-
     </section>
 
 
 
   </main>
+  <script src="assest/js/bootstrap.bundle.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
@@ -473,29 +527,29 @@
     var swiper = new Swiper(".client-slider", {
       slidesPerView: 1,
       spaceBetween: 10,
-      
+
       breakpoints: {
         "@0.00": {
           slidesPerView: 1,
-          spaceBetween: 10,
+          spaceBetween: 0,
         },
         "@0.75": {
           slidesPerView: 2,
-          spaceBetween: 20,
+          spaceBetween: 0,
         },
         "@1.00": {
           slidesPerView: 3,
-          spaceBetween: 40,
+          spaceBetween: 0,
         },
         "@1.50": {
           slidesPerView: 4,
-          spaceBetween: 50,
+          spaceBetween: 0,
         },
       },
     });
   </script>
 
-  <script src="assest/js/bootstrap.bundle.js"></script>
+
 
 
 </body>
