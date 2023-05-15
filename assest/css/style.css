@@ -127,6 +127,10 @@ header {
     padding: 5.5rem 0;
 }
 
+#hero .common-btn {
+    margin-bottom: 15.8rem;
+}
+
 /***************************************************/
 /************************About**********************/
 #about {
@@ -576,26 +580,45 @@ header {
     padding-top: 20rem;
 }
 
-#client .sub-title {
-    width: 144.6rem;
-}
-
-#client img {
+#client .errow img {
     margin: 0 auto;
+    padding-bottom: 10.5rem;
 }
-
-.client-slider {
-    padding-bottom: 15rem;
-}
-
-#client img {
+.client-img {
     padding-bottom: 10.9rem;
 }
+.client-slide{
+    padding: 0 1rem;
+}
+.swiper-wrapper{
+    padding:0 20.7rem;
+}
+/* .client-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+} */
 
+#client .client-data {
+    position: relative;
+}
+.client-data .comma {
+    position: absolute;
+    top: -3rem;
+    left: -3rem;
+}
+.client-data .comma span {
+    font-size: 20rem;
+    line-height: 12.6rem;
+    color:#FFFFFF;
+    margin: -7rem 0;
+}
 #client p {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 2.4rem;
+    text-align: left;
     color: #FFFFFF;
 }
 
@@ -604,9 +627,14 @@ header {
     font-size: 2.4rem;
     line-height: 3.3rem;
     color: #FFFFFF;
-
+    text-align: left;
 }
-
+.client-slider .swiper-button-next, 
+.client-slider .swiper-button-prev{
+    width: 1.9rem;
+    height: 3.4rem;
+    color: #FFFFFF;
+}
 @media screen and (min-width:1800px) {
     .container {
         max-width: 170rem;
