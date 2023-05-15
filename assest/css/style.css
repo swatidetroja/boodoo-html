@@ -18,6 +18,7 @@ a {
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 img {
@@ -196,7 +197,6 @@ header {
     font-size: 140px;
     line-height: 191px;
     color: #FFFFFF;
-    padding-bottom: 11.5rem;
 }
 
 .super-data p {
@@ -232,10 +232,6 @@ header {
     padding-bottom: 10rem;
 }
 
-#service .row>* {
-    padding-bottom: 15rem;
-}
-
 #service .row>*:nth-child(odd) {
     padding-right: 7.5rem;
     padding-left: 11.9rem;
@@ -268,10 +264,6 @@ header {
 #why {
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
     padding-top: 20rem;
-}
-
-#why .row>* {
-    padding-bottom: 15rem;
 }
 
 #why .sub-title {
@@ -443,6 +435,7 @@ header {
     margin-top: 8rem;
 }
 
+
 /*********************************************************************/
 
 /**************************membership********************************/
@@ -494,7 +487,6 @@ header {
 
 .price-data {
     border: 2px solid white;
-
 
 }
 
@@ -576,7 +568,7 @@ header {
 /*********************************************************************/
 /**************************client*************************************/
 #client {
-    background: linear-gradient(180deg, #000000 36.84%, rgba(200, 25, 28, 0) 223.16%);
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
     padding-top: 20rem;
 }
 
@@ -584,36 +576,32 @@ header {
     margin: 0 auto;
     padding-bottom: 10.5rem;
 }
+
 .client-img {
     padding-bottom: 10.9rem;
 }
-.client-slide{
-    padding: 0 1rem;
+
+.client-slide {
+    margin: 0 17.5rem;
 }
-.swiper-wrapper{
-    padding:0 20.7rem;
-}
-/* .client-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-} */
 
 #client .client-data {
     position: relative;
+    z-index: 1;
 }
-.client-data .comma {
+
+.client-data::before {
     position: absolute;
-    top: -3rem;
+    content: '';
+    background: url(../images/comma.png);
+    top: -5rem;
     left: -3rem;
+    width: 9.8rem;
+    height: 8.5rem;
+    background-size: cover;
+    background-position: center center;
 }
-.client-data .comma span {
-    font-size: 20rem;
-    line-height: 12.6rem;
-    color:#FFFFFF;
-    margin: -7rem 0;
-}
+
 #client p {
     font-weight: 400;
     font-size: 1.8rem;
@@ -629,12 +617,131 @@ header {
     color: #FFFFFF;
     text-align: left;
 }
-.client-slider .swiper-button-next, 
-.client-slider .swiper-button-prev{
+
+.client-slider .swiper-button-next,
+.client-slider .swiper-button-prev {
     width: 1.9rem;
     height: 3.4rem;
     color: #FFFFFF;
 }
+
+/****************************************************************/
+/*************************Blog***********************************/
+#blog {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    padding-top: 20rem;
+}
+
+#blog .sub-title {
+    padding-bottom: 8rem;
+}
+
+#blog .row>*:nth-child(odd) {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+#blog .row>*:nth-child(even) {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+#blog img {
+    width: 36.1rem;
+    height: 45rem;
+}
+
+#blog img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#blog h3 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-right: 6.3rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+#blog p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+#blog p span {
+    color: #0085FF;
+
+}
+
+/**********************************************************/
+/************************footer****************************/
+footer {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    padding-top: 20rem;
+    border-top:2px solid white ;
+    border-bottom: 1px solid white;
+}
+
+footer .row>* {
+    padding: 0 5.1rem;
+}
+
+footer p {
+    width: 27.3rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+}
+
+footer ul li {
+    padding-bottom: 2rem;
+}
+
+footer ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+footer i {
+    margin-right: 2.1rem;
+}
+
+.footer-bottom h6 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 8rem;
+    padding-bottom: 20rem;
+}
+
+
+
+/***********************************************************/
 @media screen and (min-width:1800px) {
     .container {
         max-width: 170rem;
