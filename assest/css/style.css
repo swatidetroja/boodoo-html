@@ -40,8 +40,8 @@ img {
 
 .main-title {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
     text-transform: uppercase;
     color: #C8191C;
     text-align: center;
@@ -49,8 +49,8 @@ img {
 
 .sub-title {
     font-weight: 700;
-    font-size: 84px;
-    line-height: 114px;
+    font-size: 8.4rem;
+    line-height: 11.4rem;
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
@@ -148,14 +148,14 @@ header {
 
 .about h3 {
     font-weight: 700;
-    font-size: 54px;
-    line-height: 73px;
+    font-size: 5.4rem;
+    line-height: 7.3rem;
     text-align: center;
     color: #FFFFFF;
 }
 
 .about-img {
-    border-right: 2px solid #FFFFFF;
+    border-right: 0.2rem solid #FFFFFF;
 }
 
 .about-img p {
@@ -192,8 +192,8 @@ header {
 .super-data h2,
 .super-img h2 {
     font-weight: 700;
-    font-size: 140px;
-    line-height: 191px;
+    font-size: 14rem;
+    line-height: 19.1rem;
     color: #FFFFFF;
 }
 
@@ -222,10 +222,12 @@ header {
 }
 
 .service-data {
-    border: 2px solid white;
+    border: 0.2rem solid white;
     padding: 5rem 6rem;
 }
-
+#service .row>* {
+    padding-bottom: 15rem;
+}
 #service .sub-title {
     padding-bottom: 10rem;
 }
@@ -261,7 +263,7 @@ header {
 /*********************why*********************************/
 #why {
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
-    padding-top: 20rem;
+    padding-top: 5rem;
 }
 
 #why .sub-title {
@@ -274,8 +276,8 @@ header {
 
 .why-data h3 {
     font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
     text-transform: uppercase;
     text-align: center;
     color: #FFFFFF;
@@ -285,8 +287,8 @@ header {
 .why-data p {
     width: 39.5rem;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
     text-align: center;
     color: #FFFFFF;
     margin: 0 auto;
@@ -300,7 +302,6 @@ header {
 }
 
 #horoscope .sub-title {
-    width: 105rem;
     margin: 0 auto;
     padding-bottom: 10rem;
 }
@@ -406,7 +407,7 @@ header {
     height: 10rem;
     align-items: center;
     background-color: #00000077;
-    border: 2px solid #FFFFFF;
+    border: 0.2rem solid #FFFFFF;
     margin-bottom: 8rem;
 
 }
@@ -416,7 +417,7 @@ header {
     padding: 1rem 3rem;
     width: 43.5rem;
     height: 10rem;
-    border: 2px solid #FFFFFF;
+    border: 0.2rem solid #FFFFFF;
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 3.3rem;
@@ -425,7 +426,7 @@ header {
 
 .btn:hover {
     color: #FFFFFF;
-    border: 2px solid #FFFFFF;
+    border: 0.2rem solid #FFFFFF;
 
 }
 
@@ -484,7 +485,7 @@ header {
 }
 
 .price-data {
-    border: 2px solid white;
+    border: 0.2rem solid white;
 
 }
 
@@ -689,7 +690,7 @@ footer {
 
 footer .top {
     padding-top: 8rem;
-    border-top: 2px solid white;
+    border-top: 0.2rem solid white;
     padding-bottom: 20rem;
     
 }
@@ -729,15 +730,15 @@ footer i {
     margin-right: 2.1rem;
 }
 footer .bottom {
-    border-bottom: 1px solid white;
+    border-bottom: 0.1rem solid white;
   
 }
 footer .bottom h6 {
     margin: 0 auto;
     text-align: center;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
     color: #FFFFFF;
     padding-top: 8rem;
     padding-bottom: 4.5rem;
@@ -750,4 +751,144 @@ footer .bottom h6 {
         max-width: 170rem;
 
     }
+}
+/**************************************************************/
+/* 1400 - 1650(laptop)*/
+@media screen and (max-width: 1650px){
+    .hero-data h1 {
+        padding-top: 40rem;
+        font-weight: 700;
+        font-size: 12rem;
+        line-height: 15rem;
+    }
+    .hero-data p {
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        max-width: 90rem;
+        margin: 0 auto;
+        padding: 5.5rem 0;
+    }
+    .about h3 {
+        font-weight: 700;
+        font-size: 4.4rem;
+        line-height: 6.3rem;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #about {
+        padding-top: 19rem;
+    }
+    .about-img p {
+        padding-top: 9rem;
+    }
+    .sub-title {
+        font-size: 7.4rem;
+    }
+    .about-data .sub-title {
+        padding-top: 1.7rem;
+        padding-bottom: 9rem;
+    }
+    #super {
+        padding-top: 19rem;
+    }
+    .super-data h2, .super-img h2 {
+        font-weight: 700;
+        font-size: 12rem;
+    }
+    .super-data p {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .team-img {
+        padding-left: 6.8rem;
+        padding-bottom: 9rem;
+    }
+    #service {
+        padding-top: 19rem;
+    }
+    #service .sub-title {
+        padding-bottom: 9rem;
+    }
+    #service .row>*:nth-child(odd) {
+        padding-right: 8.5rem;
+        padding-left: 12.9rem;
+    }
+    .service-data h3 {
+        font-size: 4rem;
+        line-height: 5rem;
+        padding-top: 4.5rem;
+        padding-bottom: 1.9rem;
+    }
+    .service-data p {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    #service .row>* {
+        padding-bottom: 14rem;
+    }
+    .why-data h3 {
+        font-size: 3rem;
+        padding: 2.5rem 0;
+    }
+    #why .sub-title {
+        padding-bottom: 16.2rem;
+    }
+    #horoscope {
+        padding-top: 19rem;
+    }
+    #horoscope .sub-title {
+        padding-bottom: 9rem;
+    }
+    .horo-data h3 {
+        font-size: 4rem;
+        line-height: 6.3rem;
+        padding-top: 2.1rem;
+        padding-bottom: 1rem;
+    }
+    .horo-img {
+        margin-right: 6.7rem;
+    }
+    .horo-data {
+        padding-left: 4rem;
+    }
+    #horoscope .first, .second {
+        padding-bottom: 9rem;
+    }
+    .button {
+        padding-bottom: 19rem;
+    }
+    .viewer-data h4 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .viewer-data h2 {
+        font-size: 9rem;
+        line-height: 12.6rem;
+    }
+    #appointment {
+        padding-top: 19rem;
+    }
+    #membership h2 {
+        font-size: 7.4rem;
+        line-height: 10.4rem;
+        padding-top: 9rem;
+    }
+    #price {
+        padding-top: 19rem;
+    }
+    .price-data {
+        padding: 3rem 4.7rem;
+    }
+    .price-data h2 {
+        font-size: 6.2rem;
+        line-height: 8.8rem;
+    }
+    .price-img p {
+        padding: 0;
+        padding-left: 2rem;
+    }
+    
+
+
 }
